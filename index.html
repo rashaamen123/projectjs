@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="css/style.css">
+  <title>Calculator</title>
+</head>
+
+<body>
+  <!-- Start Conatiner -->
+  <main class="conatiner">
+    <!-- Start Calcualtor -->
+    <section class="calculator">
+      <h1>Calcualtor</h1>
+      <input type="text" name="result" class="result" id="result" placeholder="Result"  />
+      <!-- <input type="button" value="C"  id="clear" /> -->
+
+
+      <div class="container-calculator">
+        <!-- <input type="button" class="but" value="MC" />
+        <input type="button" class="but" value="MR" />
+        <input type="button" class="but" value="M+" />
+        <input type="button" class="but" value="M-" /> -->
+        <input type="button" id="clear" onclick="Clear()" value="C" />
+        <input type="button" id="deleta"  onclick="del()" value="D" />
+        <input type="button" class="but"onclick="button('%')" value="%" />
+        <input type="button" class="but" onclick="button('/')" value="/" />
+
+
+        <input type="button" class="but" onclick="button(1)" value="1" />
+        <input type="button" class="but" onclick="button(2)" value="2" />
+        <input type="button" class="but" onclick="button(3)" value="3" />
+        <input type="button" class="but" onclick="button('+')" value="+" />
+        <!-- <input type="button" class="but" value="%" /> -->
+
+        <input type="button" class="but" onclick="button(4)" value="4" />
+        <input type="button" class="but" onclick="button(5)" value="5" />
+        <input type="button" class="but" onclick="button(6)" value="6" />
+        <input type="button" class="but" onclick="button('-')" value="-" />
+        <!-- <input type="button" class="but" value="+/-" /> -->
+
+
+        <input type="button" class="but"  onclick="button(7)" value="7" />
+        <input type="button" class="but" onclick="button(8)" value="8" />
+        <input type="button" class="but" onclick="button(9)" value="9" />
+        <input type="button" class="but"onclick="button('*')" value="*" />
+        <!-- <input type="button" class="but" value="ra" /> -->
+
+
+        <input type="button" class="but" onclick="button(0)" value="0" />
+        <input type="button" class="but" onclick="button('.')" value="." />
+        <!-- <input type="button" class="but" value="1/x" /> -->
+        <!-- <input type="button" class="but" onclick="button('/')" value="/" /> -->
+        <input type="button" id="equal" onclick="equal('=')" value="=" />
+
+      </div>
+    </section>
+    <!-- End Calcualtor -->
+
+  </main>
+  <!-- End Conatiner -->
+<script src="js/text.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,160 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+}
+
+body {
+  background-image: linear-gradient(to bottom right, #3a9c9f, #f8f8f8);
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.btnh{
+  padding: 8px;
+  color: #fff;
+  font-size: 1em;
+  cursor: pointer;
+  width: 70px;
+  /* background-color: #000203; */
+  border: none;
+  outline: none;
+  border-radius: 4px;
+}
+.btnre{
+  padding: 8px;
+  color: #fff;
+  font-size: 1em;
+  cursor: pointer;
+  width: 10%;
+  margin-top: 2em;
+  background-color: #44b7f0;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+}
+.btnw{
+  padding: 8px;
+  color: #fff;
+  font-size: 1em;
+  cursor: pointer;
+  width: 70px;
+  margin-top: 2em;
+  /* background-color: #000203; */
+  border: none;
+  outline: none;
+  border-radius: 4px;
+}
+.conatiner {
+  display: flex;
+  padding-top: 5em;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}
+#but-start{
+  padding: 3px 15px;
+  border: none;
+  margin-top: 2em;
+  color: white;
+  border-radius: 20px;
+  background-color: brown;
+}
+#but-start:hover{
+  color: black;  
+  background-color: white;}
+#but-stop{
+  padding: 3px 15px;
+  border: none;
+  margin-top: 2em;
+  color: white;
+  border-radius: 20px;
+  background-color: brown;
+}
+#but-stop:hover{
+  color: black;  
+  background-color: white;
+}
+#but-reset{
+  padding: 3px 15px;
+  border: none;
+  margin-top: 2em;
+  color: white;
+  border-radius: 20px;
+  background-color: brown;
+}
+#but-reset:hover{
+  color: black;  
+  background-color: white;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 1.5%;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.calculator {
+  width: 24%;
+}
+
+input {
+  padding: 25px;
+  color: #fff;
+  font-size: 1em;
+  cursor: pointer;
+  width: 70px;
+  background-color: #103d53;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+}
+
+.but {
+  margin-bottom: 3px;
+}
+
+.result {
+  background-color: #ddd;
+  color: black;
+  width: 89%;
+}
+
+input[type="button"]:hover {
+  background-color: #fff;
+  color: #000;
+}
+#clear:hover{
+  background-color: #fff;
+  color: #000;
+}
+#equal:hover{
+  background-color: #fff;
+  color: #000;
+}
+/* 
+#clear {
+  color: #fff;
+  background-color: #103d53;
+} */
+
+/*Start converter*/
+.converter {
+  display: flex;
+  margin: 50px 0px;
+}
+
+.converter h1 {
+  margin-right: 10px;
+}
+
+#conver {
+  width: 180px;
+  outline: none;
+  border-radius: 20px;
+}
+
+select {
+  padding-left: 10px;
+}
